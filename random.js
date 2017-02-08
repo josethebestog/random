@@ -4,16 +4,27 @@ var namespace = "http://www.w3.org/2000/svg"
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
+
+
+
 function createFirstScene() {
     
+    
+    
+    
+    makeRect(50,50,50,"lightblue",0.30  )
+makePolygon("25,0 75,0 100,25 0,25","purple",0.15)
+    makePolygon("50,0 150,0 200,50 0,50","purple",0.15)
+    makePolygon("50,0 150,0 200,50 0,50","purple",0.15)
+    makePolygon("50,0 150,0 200,50 0,50","purple",0.15)
 }
 
 
 // Fill in this function so that it draws something using SVG shapes!
-// You need to use at least 3 different types of shape.
+// You need to us at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    
+
 }
 
 
